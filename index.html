@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<div id="header" class="row">
+				<div class="col-md-12">
+					<h1>Ad Astra Games</h1>
+				</div>
+			</div>
+
+			<div id="main" class="row">
+
+				<div class="col-md-9">
+					<ul class="nav nav-tabs" id="myTab">
+					  <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+					  <li><a href="#products" data-toggle="tab">Products</a></li>
+					  <li><a href="#community" data-toggle="tab">Community</a></li>
+					  <li><a href="#contact" data-toggle="tab">Contact</a></li>
+					</ul>
+
+					<div class="tab-content">
+					  <div class="tab-pane active fade in" id="home">Information about what's going on</div>
+					  <div class="tab-pane fade" id="products">Information about your games</div>
+					  <div class="tab-pane fade" id="community">Information about your community</div>
+					  <div class="tab-pane fade" id="contact">Information about you</div>
+					</div>			
+				</div>
+
+				<div class="col-md-3 sidebar row">
+					<h4>Ad Astra Games and Final Sword Productions.</h4>
+					<p>Ad Astra Games is an imprint of Final Sword Productions. This means that Final Sword handles the day-to-day operations of being a business so that Ad Astra can keep working on products. As of 2012, Final Sword Productions started doing most of the Ad Astra convention sales. If you see Sam & Terri at a con, say "hi" and be nice to them.</p>
+					<h4>Our Games</h4>
+					<div class="col-md-6">			
+						<img src="art/SITS-cover.png" alt="Saganami Island Tactical Simulator" class="img-rounded">
+					</div>
+					<div class="col-md-6">
+						<img src="art/Attack_vector_cover.jpg" alt="Attack Vector: Tactical" class="img-rounded">
+					</div>
+					<div class="col-md-6">			
+						<img src="art/SS_CoverPrint_4x3_Web.png" alt="Squadron Strike" class="img-rounded">
+					</div>
+					<div class="col-md-6">
+						<img src="art/BoP_Cover_2008.jpg" alt="Birds of Prey" class="img-rounded">
+					</div>
+
+
+				</div>
+			</div>
+
+			<div id="footer" class="row">
+				<div class="col-md-12 copyright">
+					<p>All contents copyright © 2000, 2006, 2007, 2008 Ad Astra Games.</p>
+
+					<p>Any unauthorized reproduction or third party alteration of the content, including redirection or addition of hyperlinks, will be prosecuted as a violation of the Digital Millennium Copyright Act.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+	<script>
+		$('#myTab a:first').tab('show')
+		$('#myTab a').click(function (e) {
+		  e.preventDefault()
+		  $(this).tab('show')
+		})
+	</script>
+</html>

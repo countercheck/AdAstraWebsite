@@ -1,0 +1,20 @@
+body {
+	background-image:url('art/duel.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.container {
+	background-color: hsla(0,100%,100%,.8);
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border-radius: 1em;
+}
+.sidebar img{
+	height:10em;
+	width:auto;
+	margin-top: .5em;
+}
+.copyright p{
+	font-size: .5em;	
+}
