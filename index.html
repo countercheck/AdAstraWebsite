@@ -6,70 +6,152 @@
 	</head>
 
 	<body>
-		<div class="container">
-			<div id="header" class="row">
-				<div class="col-md-12">
-					<h1>Ad Astra Games</h1>
+			<div class="container">
+				<div id="header" class="row">
+					<div class="col-md-9">
+						<h1>Ad Astra Games</h1>
+					</div>
+					<div class="col-md-3">
+						<button type="button" class="btn btn-default">Store</button>
+						<button type="button" class="btn btn-default">Forum</button>
+						<button type="button" class="btn btn-default">G+</button>
+					</div>
+				</div>
+
+				<div id="main" class="row">
+
+					<div class="col-md-9">
+						<ul class="nav nav-tabs" id="myTab">
+						  <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+						  <li class="dropdown">
+						  	<a id="drop1" role="button" class="dropdown-toggle" href="#" data-toggle="dropdown">Products<span class="caret"></span></a>
+						  	<ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop1">
+						      <li><a href="#general" tabindex="-1" data-toggle="tab">General Overview</a></li>
+						      <li><a href="#sits" tabindex="-1" data-toggle="tab">Saganami Island Tactical Simulator</a></li>
+						      <li><a href="#avt" tabindex="-1" data-toggle="tab">Attack Vector Tactical</a></li>
+						      <li><a href="#ss" tabindex="-1" data-toggle="tab">Squadron Strike</a></li>
+						      <li><a href="#bop" tabindex="-1" data-toggle="tab">Birds of Prey</a></li>
+						      <li class="divider"></li>
+						      <li><a href="#preorders" tabindex="-1" data-toggle="tab">Pre-Orders and Playtesting</a></li>
+						  	</ul>
+						  </li>
+						  <li><a href="#community" data-toggle="tab">Community</a></li>
+						  <li><a href="#contact" data-toggle="tab">Contact</a></li>
+						</ul>
+
+						<div class="tab-content">
+						  <div class="tab-pane active fade in" id="home">What's New!</div>
+						  					 <!--  products -->
+						  <div class="tab-pane fade" id="general"></a>General Overview</div>
+					      <div class="tab-pane fade" id="sits"></a>Saganami Island Tactical Simulator</div>
+					      <div class="tab-pane fade" id="avt"></a>Attack Vector Tactical</div>
+					      <div class="tab-pane fade" id="ss"></a>Squadron Strike</div>
+					      <div class="tab-pane fade" id="bop"></a>Birds of Prey</div>
+					      <div class="tab-pane fade" id="preorders"></a>Pre-Orders and Playtesting</div>
+					      <!-- community -->
+						  <div class="tab-pane fade" id="community">Information about your community</div>
+						  <!-- contact -->
+						  <div class="tab-pane fade" id="contact">
+						  	<h3>Contacting Ad Astra Games</h3>
+							<p>Question on our games, including rules and the science behind them? Ask in our forum!</p>
+							<address>
+								<h4>Mailing address:</h4>
+								<strong>Ad Astra Games</strong><br>
+								Box 389<br>
+								Pelican Rapids, MN 56572<br>
+							</address>
+								<h4>Shipping address:</h4>
+								<address>
+								<strong>Ad Astra Games<br></strong>
+								57 North Broadway<br>
+								Pelican Rapids, MN 56572<br>
+								<abbr title="Phone">P:</abbr> (218) 863-1784<br>
+								<abbr title="Fax"> (218)</abbr> 863-1786
+							</address>
+
+
+							For shipping issues, contact Scott Palter or Sam Pray at:
+							adastragames@gmail.com<br>
+							For creative issues, contact Ken Burnside at:
+							design@adastragames.com<br>
+						</div>
+						</div>
+
+			
+					</div>
+
+					<div class="col-md-3 sidebar row">
+						<h4>About Ad Astra Games</h4>
+						<p>Ad Astra Games produces games that combine fun with scientific realism.  Our award winning designs include Attack Vector: Tactical and follow-ons such as Nexus Journal #1. Ad Astra's licenses include the universe of David Weber's Honor Harrington books (the "Honorverse") and the Traveller space combat game Power Projection: Fleets.</p>
+						<p>Our products have garnered favorable reviews in publications as diverse as Undefeated and Scientific American.
+						In addition to providing support for a consistently modeled science fiction universe, we also provide a discussion forum for all aspects of our games, as well as for basic science questions.</p>
+						<h4>Ad Astra Games and Final Sword Productions.</h4>
+						<p>Ad Astra Games is an imprint of Final Sword Productions. This means that Final Sword handles the day-to-day operations of being a business so that Ad Astra can keep working on products. As of 2012, Final Sword Productions started doing most of the Ad Astra convention sales. If you see Sam & Terri at a con, say "hi" and be nice to them.</p>
+						<div class="col-md-6">			
+							<img src="art/SITS-cover.png" alt="Saganami Island Tactical Simulator" class="img-rounded">
+						</div>
+						<div class="col-md-6">
+							<img src="art/Attack_vector_cover.jpg" alt="Attack Vector: Tactical" class="img-rounded">
+						</div>
+						<div class="col-md-6">			
+							<img src="art/SS_CoverPrint_4x3_Web.png" alt="Squadron Strike" class="img-rounded">
+						</div>
+						<div class="col-md-6">
+							<img src="art/BoP_Cover_2008.jpg" alt="Birds of Prey" class="img-rounded">
+						</div>
+					</div>
+
+				</div>
+
+				<div id="footer" class="row">
+					<div class="col-md-12 copyright">
+						<p>All contents copyright © 2000, 2006, 2007, 2008 Ad Astra Games.</p>
+
+						<p>Any unauthorized reproduction or third party alteration of the content, including redirection or addition of hyperlinks, will be prosecuted as a violation of the Digital Millennium Copyright Act.</p>
+					</div>
 				</div>
 			</div>
-
-			<div id="main" class="row">
-
-				<div class="col-md-9">
-					<ul class="nav nav-tabs" id="myTab">
-					  <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-					  <li><a href="#products" data-toggle="tab">Products</a></li>
-					  <li><a href="#community" data-toggle="tab">Community</a></li>
-					  <li><a href="#contact" data-toggle="tab">Contact</a></li>
-					</ul>
-
-					<div class="tab-content">
-					  <div class="tab-pane active fade in" id="home">Information about what's going on</div>
-					  <div class="tab-pane fade" id="products">Information about your games</div>
-					  <div class="tab-pane fade" id="community">Information about your community</div>
-					  <div class="tab-pane fade" id="contact">Information about you</div>
-					</div>			
-				</div>
-
-				<div class="col-md-3 sidebar row">
-					<h4>Ad Astra Games and Final Sword Productions.</h4>
-					<p>Ad Astra Games is an imprint of Final Sword Productions. This means that Final Sword handles the day-to-day operations of being a business so that Ad Astra can keep working on products. As of 2012, Final Sword Productions started doing most of the Ad Astra convention sales. If you see Sam & Terri at a con, say "hi" and be nice to them.</p>
-					<h4>Our Games</h4>
-					<div class="col-md-6">			
-						<img src="art/SITS-cover.png" alt="Saganami Island Tactical Simulator" class="img-rounded">
-					</div>
-					<div class="col-md-6">
-						<img src="art/Attack_vector_cover.jpg" alt="Attack Vector: Tactical" class="img-rounded">
-					</div>
-					<div class="col-md-6">			
-						<img src="art/SS_CoverPrint_4x3_Web.png" alt="Squadron Strike" class="img-rounded">
-					</div>
-					<div class="col-md-6">
-						<img src="art/BoP_Cover_2008.jpg" alt="Birds of Prey" class="img-rounded">
-					</div>
-
-
-				</div>
-			</div>
-
-			<div id="footer" class="row">
-				<div class="col-md-12 copyright">
-					<p>All contents copyright © 2000, 2006, 2007, 2008 Ad Astra Games.</p>
-
-					<p>Any unauthorized reproduction or third party alteration of the content, including redirection or addition of hyperlinks, will be prosecuted as a violation of the Digital Millennium Copyright Act.</p>
-				</div>
-			</div>
-		</div>
 	</body>
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 
 	<script>
+		$('.dropdown-toggle').dropdown()
 		$('#myTab a:first').tab('show')
 		$('#myTab a').click(function (e) {
 		  e.preventDefault()
 		  $(this).tab('show')
-		})
+		});
+		$('#menu1 a').click(function (e) {
+		  e.preventDefault()
+		  $(this).tab('show')
+		});
+		
+		
+	 //    var imageIndex = 0;
+		// var imagesArray = [
+		//     "art/Fading_Images/Duel.jpg",
+	 //    	"art/Fading_Images/AtaturkStar.jpg", 
+	 //    	"art/Fading_Images/Mansur.jpg", 
+	 //    	"art/Fading_Images/MedinanFleet.jpg", 
+	 //    	"art/Fading_Images/Shokolodkis.jpg"
+		// ];
+		// var r;
+		// r=Math.floor((Math.random()*5)
+
+		// $('body').css('background-image', 'url(' + imagesArray[r] + ')');
+
+
+		// function changeBackground(){
+		//     var index = imageIndex++ % imagesArray.length;
+		//     // $("#fading").fadeOut('fast');
+		//     $("#fading").css("background-image","url('"+ imagesArray[index] +"')");
+		//     // $("#fading").fadein('fast');   
+		// }
+
+		// $(document).ready(function() {
+		//   setInterval(changeBackground, 1000);
+		// });
 	</script>
 </html>

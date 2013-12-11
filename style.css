@@ -1,7 +1,7 @@
 body {
-	background-image:url('art/duel.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-image: url('art/Fading_Images/Shokolodkis.jpg');
 }
 
 .container {
