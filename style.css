@@ -28,6 +28,11 @@ body {
     display: none
 }
 
-.container {
-      margin: 0 auto
+.container.slides {
+      margin: 0 auto;
+      min-width:0;
+      width: auto;
+      height:auto;
+      background-color:transparent;
+      display: float;
     }
