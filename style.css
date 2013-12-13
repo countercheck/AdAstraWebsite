@@ -23,3 +23,16 @@ body {
 	border-right: 1px;
 	border-color: white;
 }
+
+#slides {
+    display: none
+}
+
+.container.slides {
+      margin: 0 auto;
+      min-width:0;
+      width: auto;
+      height:auto;
+      background-color:transparent;
+      display: float;
+    }
