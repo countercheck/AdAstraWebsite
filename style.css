@@ -4,8 +4,12 @@ body {
 	background-image: url('art/Fading_Images/Shokolodkis.jpg');
 }
 
+img{
+	width: auto;
+}
+
 .container {
-	background-color: hsla(0,100%,100%,.8);
+	background-color: hsla(0,100%,100%,.7);
 	margin-top: .5em;
 	margin-bottom: .5em;
 	border-radius: 1em;
@@ -20,19 +24,15 @@ body {
 }
 
 .content{
-	border-right: 1px;
-	border-color: white;
+	padding-top: 2em;
 }
 
 #slides {
     display: none
 }
 
-.container.slides {
-      margin: 0 auto;
-      min-width:0;
-      width: auto;
-      height:auto;
-      background-color:transparent;
-      display: float;
-    }
+h1 {text-align:center}
+
+.btn{
+	white-space: normal !important;
+}
