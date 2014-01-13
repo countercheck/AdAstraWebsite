@@ -1,57 +1,122 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/bootstrap.css">
+		<title>Ad Astra Games</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.kyco.googleplusfeed.css">
 		<link rel="stylesheet" href="style.css">
-		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+		
 	</head>
 
 	<body>
 			<div class="container">
-				<div id="header" class="row">
-					<div class="col-sm-9">
-						<h1>Ad Astra Games</h1>
-						<hr>
-					</div>
-					<div class="col-sm-3">
-						<a href="http://estore.genreconnections.com/SearchResults.asp?Cat=22" type="button" class="btn btn-default">Store</a>
-						<a href="http://www.adastragames.com/discus.html" type="button" class="btn btn-default">Forum</a>
-						<a href="https://plus.google.com/u/0/+Adastragames/posts" type="button" class="btn btn-default">G+</a>
-					</div>
+				<div id="header">
+					<h1 class="tiny">Ad Astra Games</h1>
+					<img src="art/Fading_Images/Shokolodkis-logo.jpg">
 				</div>
 
 				<div id="main" class="row">
-
-					<div class="col-sm-9">
-						<div class="row content">
-								<div class="btn-group-vertical col-sm-3">
-									<a href="index.html" type="button" class="btn btn-default btn-block active">News</a>
-									<a href="#sits" type="button" class="btn btn-default btn-block">Honorverse</a>
-								    <a href="#avt" type="button" class="btn btn-default btn-block">Attack Vector Tactical</a>
-								    <a href="squadron_strike.html" type="button" class="btn btn-default btn-block">Squadron Strike</a>
-								    <a href="#bop" type="button" class="btn btn-default btn-block">Birds of Prey</a>
-								    <a href="#pp" type="button" class="btn btn-default btn-block">Power Projection</a>
-								    <a href="#community" type="button" class="btn btn-default btn-block">Community</a>
-								</div>
+					<div class="col-xs-2">
+						<div class="btn-group-vertical">
+							<a href="index.html" type="button" class="btn btn-default btn-block active">News</a>
+							<a href="sits.html" type="button" class="btn btn-default btn-block">Honorverse</a>
+						    <a href="avt.html" type="button" class="btn btn-default btn-block">Attack Vector Tactical</a>
+						    <a href="squadron_strike.html" type="button" class="btn btn-default btn-block">Squadron Strike</a>
+						    <a href="bop.html" type="button" class="btn btn-default btn-block">Birds of Prey</a>
+						    <a href="pp.html" type="button" class="btn btn-default btn-block">Power Projection</a>
+						    <a href="community.html" type="button" class="btn btn-default btn-block">Community</a>
 						</div>
 					</div>
-					<div class="col-sm-3 sidebar">
-						<div class="row">				
-	    						<div class="col-sm-6">      
-									<img src="art/SITS-cover.png" alt="Saganami Island Tactical Simulator" class="img-rounded">
+					<div class="col-xs-7">
+						<h2><a href="https://plus.google.com/u/0/+Adastragames/posts">News - Live from Google+</a></h2>
+						<div class="g-page" data-width="273" data-href="https://plus.google.com/114498522000360328803" data-layout="landscape" data-rel="publisher"></div>
+						<noscript>
+							<p>This site works best with Javascript Enabled.  If you add us to our exceptions list, we promise not to do anything dodgy.  If you'd still rather not use JS in your browser, we understand: you can check up on what's new <a href=""https://plus.google.com/u/0/+Adastragames/posts"">here</a></p>
+						</noscript>
+						<div class="gplus"></div>
+
+
+					</div>
+					<div class="col-xs-3 sidebar">	
+						<div class="row">	
+							<div class="col-xs-12">
+								<div class=" btn-group btn-group-sm btn-group-justified">
+									<a href="http://estore.genreconnections.com/SearchResults.asp?Cat=22" role="button" class="btn btn-default">Store</a>
+									<a href="http://www.adastragames.com/discus.html" role="button" class="btn btn-default">Forum</a>
+									<a href="https://plus.google.com/u/0/+Adastragames/posts" role="button" class="btn btn-default googleplus">G+</a>
 								</div>
-								 <div class="col-sm-6">
-									<img src="art/Attack_vector_cover.jpg" alt="Attack Vector: Tactical" class="img-rounded">
+							</div>
+						</div>
+						<noscript>
+							<div class="row">		
+	    						<div class="col-xs-6">      
+									<img src="art/sits-min.jpg" alt="Saganami Island Tactical Simulator" class="img-rounded">
 								</div>
-								<div class="col-sm-6">      
-									<img src="art/SS_CoverPrint_4x3_Web.png" alt="Squadron Strike" class="img-rounded">
+								<div class="col-xs-6">	
+									<img src="art/avt-min.jpg" alt="Attack Vector: Tactical" class="img-rounded pull-right">
 								</div>
-								<div class="col-sm-6">
-									<img src="art/BoP_Cover_2008.jpg" alt="Birds of Prey" class="img-rounded">
-								</div>
-	  					</div>
+							</div>
+							<div class="row">
+									<div class="col-xs-6">      
+										<img src="art/ss-min.jpg" alt="Squadron Strike" class="img-rounded">
+									</div>
+									<div class="col-xs-6">	
+										<img src="art/bop-min.jpg" alt="Birds of Prey" class="img-rounded pull-right">
+									</div>
+							</div>
+						</noscript>
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+						  </ol>
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner">
+						    <div class="item active">
+						      <img src="art/ss-min.jpg" alt="...">
+						      <div class="carousel-caption">
+						        ...
+						      </div>
+						    </div>
+						    <div class="item">
+						      <img src="art/sits-min.jpg" alt="...">
+						      <div class="carousel-caption">
+						        ...
+						      </div>
+						    </div>
+						    <div class="item">
+						      <img src="art/bop-min.jpg" alt="...">
+						      <div class="carousel-caption">
+						        ...
+						      </div>
+						    </div>
+						    <div class="item">
+						      <img src="art/avt-min.jpg" alt="...">
+						      <div class="carousel-caption">
+						        ...
+						      </div>
+						    </div>
+						  </div>
+
+						  <!-- Controls -->
+						  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						  </a>
+						  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						  </a>
+						</div>
 						<div class="row">
-							<div class="col-sm-12">
+							<div class="col-xs-12">
+								<!-- Place this tag where you want the widget to render. -->
+								<!-- <div class="g-page" data-width="220" data-href="https://plus.google.com/114498522000360328803" data-rel="publisher"></div>
+ -->
 								<section>
 									<h4>About Ad Astra Games</h4>
 									<p>Ad Astra Games produces games that combine fun with scientific realism.  Our award winning designs include Attack Vector: Tactical and follow-ons such as Nexus Journal #1. Ad Astra's licenses include the universe of David Weber's Honor Harrington books (the "Honorverse") and the Traveller space combat game Power Projection: Fleets.</p>
@@ -93,7 +158,7 @@
 
 
 				<div id="footer" class="row">
-					<div class="col-sm-12 copyright">
+					<div class="col-xs-12 copyright">
 						<p>All contents copyright © 2000, 2006, 2007, 2008 Ad Astra Games.</p>
 
 						<p>Any unauthorized reproduction or third party alteration of the content, including redirection or addition of hyperlinks, will be prosecuted as a violation of the Digital Millennium Copyright Act.</p>
@@ -103,8 +168,30 @@
 	</body>
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/jquery.kyco.googleplusfeed.min.js"></script>
 	<script src="js/bootstrap.js"></script>
-	<script src="js/jquery.slides.js"></script>
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+	<!-- Place this tag after the last +1 button tag. -->
+	<script type="text/javascript">
+	  (function() {
+	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	    po.src = 'https://apis.google.com/js/platform.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  })();
+	</script>
+
+	<script>
+	    $(document).ready(function() {
+	        $(".gplus").kycoGooglePlusFeed({
+	        	id: '114498522000360328803',
+	        	feedPosts: 3,
+	        	postsIncriment: 3,
+	        	profileImageSize: 0
+	        });
+	    });
+	</script>
 
 	<script>
 		$('.dropdown-toggle').dropdown()
@@ -117,29 +204,15 @@
 		  e.preventDefault()
 		  $(this).tab('show')
 		});
-	 //    var imageIndex = 0;
-		// var imagesArray = [
-		//     "art/Fading_Images/Duel.jpg",
-	 //    	"art/Fading_Images/AtaturkStar.jpg", 
-	 //    	"art/Fading_Images/Mansur.jpg", 
-	 //    	"art/Fading_Images/MedinanFleet.jpg", 
-	 //    	"art/Fading_Images/Shokolodkis.jpg"
-		// ];
-		// var r;
-		// r=Math.floor((Math.random()*5)
-
-		// $('body').css('background-image', 'url(' + imagesArray[r] + ')');
-
-
-		// function changeBackground(){
-		//     var index = imageIndex++ % imagesArray.length;
-		//     // $("#fading").fadeOut('fast');
-		//     $("#fading").css("background-image","url('"+ imagesArray[index] +"')");
-		//     // $("#fading").fadein('fast');   
-		// }
-
-		// $(document).ready(function() {
-		//   setInterval(changeBackground, 1000);
-		// });
+	 	$('.carousel').carousel({
+		  interval: 8000
+		})
+	</script>
+	<script type="text/javascript">
+	  (function() {
+	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	    po.src = 'https://apis.google.com/js/platform.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  })();
 	</script>
 </html>

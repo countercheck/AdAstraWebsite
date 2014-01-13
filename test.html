@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Ad Astra Games</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/jquery.kyco.googleplusfeed.css">
+		<link rel="stylesheet" href="css/jquery.kyco.googleplusfeed.demo.css">
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery.kyco.googleplusfeed.min.js"></script>
+		
+		
+	</head>
+
+	<body>
+		<div class="gplus"></div>
+		<div class="gplus2"></div>	
+		<script>
+			$(function() {
+				$('.gplus').kycoGooglePlusFeed('114498522000360328803');
+
+				$('.gplus2').kycoGooglePlusFeed({
+					id: '114498522000360328803',
+					feedPosts: 2, // Feed posts to show on load
+					postsIncrement: 1, // Number of feed posts to show on "Show more" button click
+					maxPosts: 5, // Max number of posts to pull before "Show more" will go to Google+, cannot excced 20 because of Google API in use
+					profileImageSize: 150, // Max is 250
+					lang: 'de'
+				});
+			});
+		</script>
+	</body>
+
+	<!-- Place this tag after the last +1 button tag. -->
+	
+
+
+</html>

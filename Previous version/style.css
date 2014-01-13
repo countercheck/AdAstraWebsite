@@ -1,0 +1,46 @@
+body {
+	background-repeat:no-repeat;
+	background-image: url('art/Fading_Images/Shokolodkis-min.jpg');
+	background-attachment:fixed;
+	background-size:100%, auto;
+}
+
+#header{
+
+}
+
+img{
+	width: auto;
+}
+
+.container {
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border-radius: 1em;
+}
+.sidebar img{
+	height:10em;
+	width:auto;
+	margin-top: .5em;
+}
+.copyright p{
+	font-size: .5em;	
+}
+
+.content{
+	padding-top: 2em;
+}
+
+#slides {
+    display: none
+}
+
+h1 {text-align:center}
+
+.btn{
+	white-space: normal !important;
+}
+
+#main{
+	background-color: hsla(0,100%,100%,.7);
+}

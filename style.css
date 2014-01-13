@@ -1,38 +1,121 @@
+/*.container{
+	width:970px !important;
+}*/
+
+
 body {
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-image: url('art/Fading_Images/Shokolodkis.jpg');
+	background-color: black;
 }
 
 img{
 	width: auto;
 }
 
+#header{
+	padding:0px;
+	margin: 0px;
+	width: 100%;
+}
+
+#header img{
+	width:100%;
+	height:auto;
+}
 .container {
-	background-color: hsla(0,100%,100%,.7);
-	margin-top: .5em;
-	margin-bottom: .5em;
-	border-radius: 1em;
+	max-width: 1000px;
+	min-width:770px;
+	padding:0;
+}
+
+#main, #footer{
+	background-color: hsla(0,0%,70%,1);
+	margin:0;
+	padding-top: 1em;
 }
 .sidebar img{
-	height:10em;
-	width:auto;
+	width:100%;
+	max-width: 100px;
+	height:auto;
 	margin-top: .5em;
 }
 .copyright p{
 	font-size: .5em;	
 }
 
-.content{
-	padding-top: 2em;
+h2 a{
+	color:black;
 }
 
-#slides {
-    display: none
+h2 a:hover{
+	color:black;
+	text-decoration: none;
 }
-
-h1 {text-align:center}
 
 .btn{
 	white-space: normal !important;
+}
+
+.news > div{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em auto;
+}
+
+.kyco_googleplusfeed {
+	float: left;
+	margin: 0 50px 20px 0;
+	border: 1px;
+	background-color:white;
+	padding: 1em;
+	border-color:black;
+	border-radius: 1em;
+}
+
+.gplus .kyco_googleplusfeed .feed_header {
+	display: none;
+}
+
+.gplus .kyco_googleplusfeed .feed_screen_name {
+	clear: both;
+	height: 30px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+
+.feed_post{
+	background-color:  hsla(0,0%,90%,1);
+	padding: 1em;
+	margin: .5em 0em;
+	border-radius: .5em;
+	text-align: left;
+}
+
+.feed_post p{
+	text-align: left;
+}
+
+.feed_post span{
+	font-weight: bold;
+}
+
+.reveal:hover{
+	color: grey;
+}
+
+.more{
+	display:none;
+}
+
+.tiny{
+	color:black;
+	font-size: 1px;
+	margin:0;
+	padding:0;
+}
+
+.download{
+	width:49%;
+	min-width:200px;
+	display:inline-block;
 }
